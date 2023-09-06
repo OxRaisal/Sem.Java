@@ -26,6 +26,6 @@ public class Task3 {
             }
 
         }
-        System.out.println("Result: " + maxLength);
+        System.out.println("Resul: " + maxLength);
     }
 }
