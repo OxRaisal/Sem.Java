@@ -1,4 +1,3 @@
-import java.util.Random;
 
 public class Task3 {
     public static void main(String[] args) {
@@ -6,7 +5,6 @@ public class Task3 {
     }
 
     public static void run() {
-        Random random = new Random();
 
         int[] arr = new int[]{1, 1, 0, 1,1,1,1,1,1,1, 0, 1, 1, 1};
 //        arr[0] = 1;
@@ -26,6 +24,6 @@ public class Task3 {
             }
 
         }
-        System.out.println("Resul: " + maxLength);
+        System.out.println("Result: " + maxLength);
     }
 }
